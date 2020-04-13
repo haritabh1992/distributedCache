@@ -27,10 +27,12 @@ python tcpServer.py 23456
 python tcpServer.py 34567
 ```
 
-Note: Remember to export PYTHONHASHSEED on all terminals
+---
+**Note:** Remember to export PYTHONHASHSEED on all terminals
 ```bash
 export PYTHONHASHSEED=0
 ```
+---
 
 Sample run commands for `Client`:
 
