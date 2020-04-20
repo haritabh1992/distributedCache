@@ -50,3 +50,9 @@ python tcpClient.py 34567 action get key abcd
 python tcpClient.py 23456 action set key abcd value cat
 python tcpClient.py 34567 action get key abcd
 ```
+
+```bash
+python tcpClient.py 12345 action killServer
+python tcpClient.py 23456 action killServer
+python tcpClient.py 34567 action killServer
+```
