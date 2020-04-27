@@ -31,6 +31,7 @@ python tcpServer.py 34567
 **Note:** Remember to export PYTHONHASHSEED on all terminals
 ```bash
 export PYTHONHASHSEED=0
+set PYTHONHASHSEED=0
 ```
 ---
 
@@ -41,7 +42,9 @@ python tcpClient.py 12345 action createRing totalRingSize 1000
 python tcpClient.py 23456 action joinRing ringMemberPort 12345
 python tcpClient.py 34567 action joinRing ringMemberPort 12345
 
+python tcpClient.py 12345 action getRing
 python tcpClient.py 23456 action getRing
+python tcpClient.py 34567 action getRing
 
 python tcpClient.py 23456 action get key abcd
 python tcpClient.py 12345 action get key abcd
