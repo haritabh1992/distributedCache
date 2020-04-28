@@ -12,7 +12,6 @@ def main2():
     serverNode = node.Node(ownPort)
     serverNode.startServer()
 
+
 if __name__ == "__main__":
     main2()
-
-

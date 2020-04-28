@@ -4,6 +4,7 @@ import json
 
 MAX_BUFFER_SIZE = 1024
 
+
 def getResponseFromServer(dataToSend, ip, port):
     s = socket.socket()
     s.connect((ip, port))
